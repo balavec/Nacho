@@ -1,0 +1,21 @@
+{
+    "name": "balavec/nacho",
+    "description": "Nacho, nacho man. I want to be a nacho man",
+    "license": "MIT",
+    "keywords": ["nacho"],
+    "authors": [
+        {
+            "name": "Robert Kuzma",
+            "email": "robert@balavec.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Balavec\\Nacho\\": "src"
+        }
+    }
+}
